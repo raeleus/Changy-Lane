@@ -1,0 +1,59 @@
+{
+"skeleton": { "hash": "OUqaVmERO1AfqmAJ+LjyXB3CuKk", "spine": "3.7.17-beta", "width": 70, "height": 101, "images": "../output/", "audio": "" },
+"bones": [
+	{ "name": "root" },
+	{ "name": "bone", "parent": "root", "length": 27.17, "rotation": -88.78, "x": 13.62, "y": -37.6 }
+],
+"slots": [
+	{ "name": "flame", "bone": "bone" },
+	{ "name": "player-car", "bone": "root", "dark": "000000", "attachment": "player-car" },
+	{ "name": "bbox", "bone": "root", "attachment": "bbox" }
+],
+"skins": {
+	"default": {
+		"bbox": {
+			"bbox": {
+				"type": "boundingbox",
+				"vertexCount": 4,
+				"vertices": [ -24.17, 34.06, 23.9, 34.54, 24.86, -33.42, -24.17, -33.47 ]
+			}
+		},
+		"flame": {
+			"flame": { "x": 12.18, "y": -3.12, "rotation": 88.78, "width": 21, "height": 40 }
+		},
+		"player-car": {
+			"player-car": { "width": 70, "height": 101 }
+		}
+	}
+},
+"animations": {
+	"animation": {},
+	"boosting": {
+		"slots": {
+			"flame": {
+				"attachment": [
+					{ "time": 0, "name": "flame" }
+				]
+			},
+			"player-car": {
+				"twoColor": [
+					{ "time": 0, "light": "ffffffff", "dark": "000000" },
+					{ "time": 0.2667, "light": "000000ff", "dark": "ffffff" },
+					{ "time": 0.5, "light": "ffffffff", "dark": "000000" }
+				]
+			}
+		},
+		"bones": {
+			"bone": {
+				"scale": [
+					{ "time": 0, "x": 1, "y": 1 },
+					{ "time": 0.1333, "x": 0.665, "y": 0.67 },
+					{ "time": 0.2667, "x": 1, "y": 1 },
+					{ "time": 0.4, "x": 0.665, "y": 0.67 },
+					{ "time": 0.5, "x": 1, "y": 1 }
+				]
+			}
+		}
+	}
+}
+}

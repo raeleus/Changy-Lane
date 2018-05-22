@@ -1,0 +1,19 @@
+{
+"skeleton": { "hash": "HY7OUooUjXMX1BUGNZzyfS0jOlI", "spine": "3.7.17-beta", "width": 0, "height": 0, "images": "../output/", "audio": "" },
+"bones": [
+	{ "name": "root" }
+],
+"slots": [
+	{ "name": "wheel", "bone": "root", "attachment": "wheel" }
+],
+"skins": {
+	"default": {
+		"wheel": {
+			"wheel": { "width": 21, "height": 20 }
+		}
+	}
+},
+"animations": {
+	"animation": {}
+}
+}

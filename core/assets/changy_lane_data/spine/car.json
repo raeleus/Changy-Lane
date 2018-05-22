@@ -1,0 +1,59 @@
+{
+"skeleton": { "hash": "a13eoZKW4Ljk/i65A0ESkt4vVmI", "spine": "3.7.17-beta", "width": 0, "height": 0, "images": "../output/", "audio": "" },
+"bones": [
+	{ "name": "root" }
+],
+"slots": [
+	{ "name": "car", "bone": "root", "attachment": "car" },
+	{ "name": "bbox", "bone": "root", "attachment": "bbox" }
+],
+"skins": {
+	"default": {
+		"bbox": {
+			"bbox": {
+				"type": "boundingbox",
+				"vertexCount": 4,
+				"vertices": [ -22.74, 43.54, 22, 44.02, 24.38, -46.42, -23.7, -45.95 ]
+			}
+		}
+	},
+	"black": {
+		"car": {
+			"car": { "color": "232323ff", "width": 70, "height": 110 }
+		}
+	},
+	"green": {
+		"car": {
+			"car": { "color": "197000ff", "width": 70, "height": 110 }
+		}
+	},
+	"orange": {
+		"car": {
+			"car": { "color": "ffc600ff", "width": 70, "height": 110 }
+		}
+	},
+	"pink": {
+		"car": {
+			"car": { "color": "ff85e6ff", "width": 70, "height": 110 }
+		}
+	},
+	"purple": {
+		"car": {
+			"car": { "color": "7001d5ff", "width": 70, "height": 110 }
+		}
+	},
+	"white": {
+		"car": {
+			"car": { "color": "d0d0d0ff", "width": 70, "height": 110 }
+		}
+	},
+	"yellow": {
+		"car": {
+			"car": { "color": "fff100ff", "width": 70, "height": 110 }
+		}
+	}
+},
+"animations": {
+	"animation": {}
+}
+}

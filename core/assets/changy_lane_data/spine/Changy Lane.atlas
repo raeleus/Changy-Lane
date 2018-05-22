@@ -1,0 +1,230 @@
+
+Changy Lane.png
+size: 512,512
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+barrier
+  rotate: false
+  xy: 299, 458
+  size: 121, 50
+  orig: 121, 50
+  offset: 0, 0
+  index: -1
+black
+  rotate: false
+  xy: 187, 189
+  size: 70, 70
+  orig: 70, 70
+  offset: 0, 0
+  index: -1
+burnout
+  rotate: false
+  xy: 1, 81
+  size: 21, 21
+  orig: 21, 21
+  offset: 0, 0
+  index: -1
+car
+  rotate: false
+  xy: 114, 285
+  size: 70, 110
+  orig: 70, 110
+  offset: 0, 0
+  index: -1
+cop-car
+  rotate: false
+  xy: 115, 182
+  size: 70, 101
+  orig: 70, 101
+  offset: 0, 0
+  index: -1
+dashed-line
+  rotate: false
+  xy: 24, 78
+  size: 12, 24
+  orig: 12, 24
+  offset: 0, 0
+  index: -1
+explosion_00
+  rotate: false
+  xy: 131, 94
+  size: 86, 86
+  orig: 86, 86
+  offset: 0, 0
+  index: -1
+explosion_01
+  rotate: false
+  xy: 275, 349
+  size: 86, 86
+  orig: 86, 86
+  offset: 0, 0
+  index: -1
+explosion_02
+  rotate: false
+  xy: 187, 261
+  size: 86, 86
+  orig: 86, 86
+  offset: 0, 0
+  index: -1
+explosion_03
+  rotate: false
+  xy: 275, 261
+  size: 86, 86
+  orig: 86, 86
+  offset: 0, 0
+  index: -1
+explosion_04
+  rotate: false
+  xy: 259, 173
+  size: 86, 86
+  orig: 86, 86
+  offset: 0, 0
+  index: -1
+explosion_05
+  rotate: false
+  xy: 43, 76
+  size: 86, 86
+  orig: 86, 86
+  offset: 0, 0
+  index: -1
+explosion_06
+  rotate: false
+  xy: 219, 85
+  size: 86, 86
+  orig: 86, 86
+  offset: 0, 0
+  index: -1
+explosion_07
+  rotate: false
+  xy: 307, 85
+  size: 86, 86
+  orig: 86, 86
+  offset: 0, 0
+  index: -1
+explosion_08
+  rotate: false
+  xy: 422, 422
+  size: 86, 86
+  orig: 86, 86
+  offset: 0, 0
+  index: -1
+explosion_09
+  rotate: false
+  xy: 347, 173
+  size: 86, 86
+  orig: 86, 86
+  offset: 0, 0
+  index: -1
+explosion_10
+  rotate: false
+  xy: 187, 349
+  size: 86, 86
+  orig: 86, 86
+  offset: 0, 0
+  index: -1
+flame
+  rotate: false
+  xy: 189, 52
+  size: 21, 40
+  orig: 21, 40
+  offset: 0, 0
+  index: -1
+green
+  rotate: false
+  xy: 395, 101
+  size: 70, 70
+  orig: 70, 70
+  offset: 0, 0
+  index: -1
+light-blue
+  rotate: false
+  xy: 145, 6
+  size: 42, 42
+  orig: 42, 42
+  offset: 0, 0
+  index: -1
+light-red
+  rotate: false
+  xy: 145, 50
+  size: 42, 42
+  orig: 42, 42
+  offset: 0, 0
+  index: -1
+line
+  rotate: false
+  xy: 189, 4
+  size: 12, 24
+  orig: 12, 24
+  offset: 0, 0
+  index: -1
+player-car
+  rotate: false
+  xy: 43, 164
+  size: 70, 101
+  orig: 70, 101
+  offset: 0, 0
+  index: -1
+red
+  rotate: false
+  xy: 73, 4
+  size: 70, 70
+  orig: 70, 70
+  offset: 0, 0
+  index: -1
+streak
+  rotate: false
+  xy: 115, 173
+  size: 7, 7
+  orig: 7, 7
+  offset: 0, 0
+  index: -1
+street-tile
+  rotate: false
+  xy: 395, 75
+  size: 65, 24
+  orig: 65, 24
+  offset: 0, 0
+  index: -1
+traffic-light
+  rotate: false
+  xy: 1, 267
+  size: 111, 241
+  orig: 111, 241
+  offset: 0, 0
+  index: -1
+turbo
+  rotate: false
+  xy: 187, 437
+  size: 110, 71
+  orig: 110, 71
+  offset: 0, 0
+  index: -1
+warning
+  rotate: false
+  xy: 1, 104
+  size: 40, 161
+  orig: 40, 161
+  offset: 0, 0
+  index: -1
+wheel
+  rotate: false
+  xy: 189, 30
+  size: 21, 20
+  orig: 21, 20
+  offset: 0, 0
+  index: -1
+wreck
+  rotate: false
+  xy: 114, 397
+  size: 71, 111
+  orig: 71, 111
+  offset: 0, 0
+  index: -1
+yellow
+  rotate: false
+  xy: 1, 4
+  size: 70, 70
+  orig: 70, 70
+  offset: 0, 0
+  index: -1

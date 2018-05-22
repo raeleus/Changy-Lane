@@ -1,0 +1,19 @@
+{
+"skeleton": { "hash": "1BXsq5mpdszwLaqnZHQd/hNXBig", "spine": "3.7.17-beta", "width": 0, "height": 0, "images": "../output/", "audio": "" },
+"bones": [
+	{ "name": "root" }
+],
+"slots": [
+	{ "name": "wreck", "bone": "root", "attachment": "wreck" }
+],
+"skins": {
+	"default": {
+		"wreck": {
+			"wreck": { "width": 71, "height": 111 }
+		}
+	}
+},
+"animations": {
+	"animation": {}
+}
+}

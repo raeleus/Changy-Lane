@@ -1,0 +1,19 @@
+{
+"skeleton": { "hash": "1qA6W8awZ6F2npqdVQhy15ibjzM", "spine": "3.7.17-beta", "width": 0, "height": 0, "images": "../output/", "audio": "" },
+"bones": [
+	{ "name": "root" }
+],
+"slots": [
+	{ "name": "barrier", "bone": "root", "attachment": "barrier" }
+],
+"skins": {
+	"default": {
+		"barrier": {
+			"barrier": { "width": 121, "height": 50 }
+		}
+	}
+},
+"animations": {
+	"animation": {}
+}
+}

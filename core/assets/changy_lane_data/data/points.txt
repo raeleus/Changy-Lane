@@ -1,0 +1,5 @@
+points per second:1
+wreck car:10
+avoiding cop:20
+game over bonus:10
+turbo bonus:5

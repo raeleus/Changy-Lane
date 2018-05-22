@@ -1,0 +1,94 @@
+{
+"skeleton": { "hash": "nZEENW34trr+sTQCJ61bdO53NHQ", "spine": "3.7.17-beta", "width": 0, "height": 0, "images": "../output/", "audio": "../../code/core/assets/changy_lane_data/sfx/" },
+"bones": [
+	{ "name": "root" },
+	{ "name": "bone", "parent": "root", "length": 164.61, "rotation": 89.55, "x": -2.39, "y": -60.07 }
+],
+"slots": [
+	{ "name": "traffic-light", "bone": "bone", "attachment": "traffic-light" },
+	{ "name": "black", "bone": "bone", "attachment": "black" },
+	{ "name": "black2", "bone": "bone", "attachment": "black" },
+	{ "name": "black3", "bone": "bone", "attachment": "black" }
+],
+"skins": {
+	"default": {
+		"black": {
+			"black": { "x": 130.89, "y": -1.37, "rotation": -89.55, "width": 70, "height": 70 },
+			"green": { "x": 130.89, "y": -1.37, "rotation": -89.55, "width": 70, "height": 70 }
+		},
+		"black2": {
+			"black": { "x": 60.09, "y": -1.92, "rotation": -89.55, "width": 70, "height": 70 },
+			"yellow": { "x": 60.09, "y": -1.92, "rotation": -89.55, "width": 70, "height": 70 }
+		},
+		"black3": {
+			"black": { "x": -11.97, "y": -2.49, "rotation": -89.55, "width": 70, "height": 70 },
+			"red": { "x": -11.97, "y": -2.49, "rotation": -89.55, "width": 70, "height": 70 }
+		},
+		"traffic-light": {
+			"traffic-light": { "x": 60.09, "y": -1.92, "rotation": -89.55, "width": 111, "height": 241 }
+		}
+	}
+},
+"events": {
+	"go": { "audio": "go.wav" },
+	"ready": { "audio": "ready.wav" }
+},
+"animations": {
+	"animation": {},
+	"start": {
+		"slots": {
+			"black": {
+				"attachment": [
+					{ "time": 3, "name": "green" }
+				],
+				"color": [
+					{ "time": 3.3667, "color": "ffffffff" },
+					{ "time": 4.3667, "color": "ffffff00" }
+				]
+			},
+			"black2": {
+				"attachment": [
+					{ "time": 2, "name": "yellow" }
+				],
+				"color": [
+					{ "time": 3.3667, "color": "ffffffff" },
+					{ "time": 4.3667, "color": "ffffff00" }
+				]
+			},
+			"black3": {
+				"attachment": [
+					{ "time": 1, "name": "red" }
+				],
+				"color": [
+					{ "time": 3.3667, "color": "ffffffff" },
+					{ "time": 4.3667, "color": "ffffff00" }
+				]
+			},
+			"traffic-light": {
+				"color": [
+					{ "time": 3.3667, "color": "ffffffff" },
+					{ "time": 4.3667, "color": "ffffff00" }
+				]
+			}
+		},
+		"bones": {
+			"bone": {
+				"translate": [
+					{
+						"time": 3.3667,
+						"x": 0,
+						"y": 0,
+						"curve": [ 0.999, 0, 0.997, 0.41 ]
+					},
+					{ "time": 4.3667, "x": 0, "y": 338.22 }
+				]
+			}
+		},
+		"events": [
+			{ "time": 1, "name": "ready" },
+			{ "time": 2, "name": "ready" },
+			{ "time": 3, "name": "go" }
+		]
+	}
+}
+}

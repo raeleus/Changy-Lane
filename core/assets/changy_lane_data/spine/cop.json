@@ -1,0 +1,52 @@
+{
+"skeleton": { "hash": "SRNhCjvaOnXOUQDn8el3BXk3dIA", "spine": "3.7.17-beta", "width": 0, "height": 0, "images": "../output/", "audio": "" },
+"bones": [
+	{ "name": "root" }
+],
+"slots": [
+	{ "name": "cop-car", "bone": "root", "attachment": "cop-car" },
+	{ "name": "light-blue", "bone": "root", "attachment": "light-blue" },
+	{ "name": "light-red", "bone": "root", "attachment": "light-red" },
+	{ "name": "bbox", "bone": "root", "attachment": "bbox" }
+],
+"skins": {
+	"default": {
+		"bbox": {
+			"bbox": {
+				"type": "boundingbox",
+				"vertexCount": 4,
+				"vertices": [ -22.27, 42.59, 23.9, 42.59, 24.38, -45.95, -23.7, -45.47 ]
+			}
+		},
+		"cop-car": {
+			"cop-car": { "width": 70, "height": 101 }
+		},
+		"light-blue": {
+			"light-blue": { "x": 9, "y": 2.61, "width": 42, "height": 42 }
+		},
+		"light-red": {
+			"light-red": { "x": -7, "y": 3, "width": 42, "height": 42 }
+		}
+	}
+},
+"animations": {
+	"animation": {
+		"slots": {
+			"light-blue": {
+				"attachment": [
+					{ "time": 0, "name": "light-blue" },
+					{ "time": 0.1667, "name": null },
+					{ "time": 0.3, "name": "light-blue" }
+				]
+			},
+			"light-red": {
+				"attachment": [
+					{ "time": 0, "name": null },
+					{ "time": 0.1667, "name": "light-red" },
+					{ "time": 0.3, "name": null }
+				]
+			}
+		}
+	}
+}
+}

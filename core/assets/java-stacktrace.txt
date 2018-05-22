@@ -1,0 +1,21 @@
+com.badlogic.gdx.utils.GdxRuntimeException: No com.ray3k.changeylane.ScrollingTiledDrawable registered with name: bg-tile-tiled
+	at com.badlogic.gdx.scenes.scene2d.ui.Skin.get(Skin.java:154)
+	at com.ray3k.changeylane.states.MenuState.act(MenuState.java:108)
+	at com.ray3k.changeylane.StateManager.act(StateManager.java:52)
+	at com.ray3k.changeylane.Core.render(Core.java:149)
+	at com.badlogic.gdx.backends.lwjgl.LwjglApplication.mainLoop(LwjglApplication.java:225)
+	at com.badlogic.gdx.backends.lwjgl.LwjglApplication$1.run(LwjglApplication.java:126)
+java.lang.IllegalStateException: SpriteBatch.end must be called before begin.
+	at com.badlogic.gdx.graphics.g2d.SpriteBatch.begin(SpriteBatch.java:169)
+	at com.ray3k.changeylane.states.GameState.draw(GameState.java:142)
+	at com.ray3k.changeylane.StateManager.draw(StateManager.java:46)
+	at com.ray3k.changeylane.Core.render(Core.java:153)
+	at com.badlogic.gdx.backends.lwjgl.LwjglApplication.mainLoop(LwjglApplication.java:225)
+	at com.badlogic.gdx.backends.lwjgl.LwjglApplication$1.run(LwjglApplication.java:126)
+java.lang.IllegalArgumentException: Skin not found: animation
+	at com.esotericsoftware.spine.Skeleton.setSkin(Skeleton.java:511)
+	at com.ray3k.changeylane.states.GameState.act(GameState.java:293)
+	at com.ray3k.changeylane.StateManager.act(StateManager.java:52)
+	at com.ray3k.changeylane.Core.render(Core.java:149)
+	at com.badlogic.gdx.backends.lwjgl.LwjglApplication.mainLoop(LwjglApplication.java:225)
+	at com.badlogic.gdx.backends.lwjgl.LwjglApplication$1.run(LwjglApplication.java:126)

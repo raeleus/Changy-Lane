@@ -1,0 +1,61 @@
+{
+"skeleton": { "hash": "m65pbWPgty1Cws1fPKq4IE360UY", "spine": "3.7.17-beta", "width": 0, "height": 0, "images": "../output/", "audio": "" },
+"bones": [
+	{ "name": "root" }
+],
+"slots": [
+	{ "name": "turbo", "bone": "root", "attachment": "turbo" },
+	{ "name": "turbo2", "bone": "root", "attachment": "turbo" },
+	{ "name": "turbo3", "bone": "root", "attachment": "turbo" },
+	{ "name": "bbox", "bone": "root", "attachment": "bbox" }
+],
+"skins": {
+	"default": {
+		"bbox": {
+			"bbox": {
+				"type": "boundingbox",
+				"vertexCount": 4,
+				"vertices": [ -25.32, -71.1, -26.43, 76.4, 26.81, 76.4, 25.7, -69.99 ]
+			}
+		},
+		"turbo": {
+			"turbo": { "y": 49.15, "scaleX": 0.8, "scaleY": 0.8, "width": 110, "height": 71 }
+		},
+		"turbo2": {
+			"turbo": { "y": 5.65, "scaleX": 0.8, "scaleY": 0.8, "width": 110, "height": 71 }
+		},
+		"turbo3": {
+			"turbo": { "y": -40.43, "scaleX": 0.8, "scaleY": 0.8, "width": 110, "height": 71 }
+		}
+	}
+},
+"animations": {
+	"animation": {
+		"slots": {
+			"turbo": {
+				"attachment": [
+					{ "time": 0, "name": null },
+					{ "time": 0.1333, "name": null },
+					{ "time": 0.4, "name": "turbo" },
+					{ "time": 0.8, "name": null }
+				]
+			},
+			"turbo2": {
+				"attachment": [
+					{ "time": 0, "name": null },
+					{ "time": 0.1333, "name": null },
+					{ "time": 0.2667, "name": "turbo" },
+					{ "time": 0.6667, "name": null }
+				]
+			},
+			"turbo3": {
+				"attachment": [
+					{ "time": 0, "name": null },
+					{ "time": 0.1333, "name": "turbo" },
+					{ "time": 0.5333, "name": null }
+				]
+			}
+		}
+	}
+}
+}

@@ -1,0 +1,38 @@
+
+Changy Lane.png
+size: 1024,1024
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+button
+  rotate: false
+  xy: 418, 540
+  size: 184, 80
+  split: 23, 22, 25, 22
+  pad: 14, 16, 6, 8
+  orig: 184, 80
+  offset: 0, 0
+  index: -1
+button-pressed
+  rotate: false
+  xy: 1, 1
+  size: 184, 80
+  split: 24, 21, 26, 21
+  pad: 15, 15, 7, 7
+  orig: 184, 80
+  offset: 0, 0
+  index: -1
+font-export
+  rotate: false
+  xy: 1, 83
+  size: 325, 326
+  orig: 325, 326
+  offset: 0, 0
+  index: -1
+logo
+  rotate: false
+  xy: 1, 411
+  size: 415, 209
+  orig: 415, 209
+  offset: 0, 0
+  index: -1

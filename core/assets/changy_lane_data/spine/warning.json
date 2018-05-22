@@ -1,0 +1,29 @@
+{
+"skeleton": { "hash": "bcdOHwwwHhl4O/5nxNpRaD9xr4s", "spine": "3.7.17-beta", "width": 0, "height": 0, "images": "../output/", "audio": "" },
+"bones": [
+	{ "name": "root", "y": 74.3 }
+],
+"slots": [
+	{ "name": "warning", "bone": "root", "attachment": "warning" }
+],
+"skins": {
+	"default": {
+		"warning": {
+			"warning": { "width": 40, "height": 161 }
+		}
+	}
+},
+"animations": {
+	"animation": {
+		"slots": {
+			"warning": {
+				"color": [
+					{ "time": 0, "color": "ff0000ff" },
+					{ "time": 0.1667, "color": "0a00ffff" },
+					{ "time": 0.3333, "color": "ff0000ff" }
+				]
+			}
+		}
+	}
+}
+}
